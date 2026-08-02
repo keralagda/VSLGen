@@ -5,15 +5,11 @@ const vonixxFields: LabelField[] = [
   // 1. BRAND LOGO
   {
     id: 'brand-logo',
-    type: 'text',
-    value: 'VONIXX',
-    position: { x: 15, y: 20 },
-    size: { width: 120, height: 35 },
+    type: 'image',
+    value: '/logo.png',
+    position: { x: 15, y: 15 },
+    size: { width: 130, height: 42 },
     style: {
-      fontSize: 28,
-      fontWeight: 'bold',
-      fontFamily: 'Inter, Arial, sans-serif',
-      color: '#2563EB',
       textAlign: 'left',
       verticalAlign: 'middle',
     },

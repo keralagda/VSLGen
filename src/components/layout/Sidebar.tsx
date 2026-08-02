@@ -43,12 +43,15 @@ export function Sidebar() {
         aria-label="Main navigation"
       >
         <div className="flex h-16 items-center justify-between border-b px-4">
-          {!collapsed && (
-            <div className="flex items-center gap-2">
+          {!collapsed ? (
+            <div className="flex items-center gap-2 pl-1">
+              <img src="/logo.png" alt="VONIXX Logo" className="h-8 w-auto object-contain" />
+            </div>
+          ) : (
+            <div className="flex items-center justify-center w-full">
               <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center">
                 <Package className="h-5 w-5 text-primary-foreground" />
               </div>
-              <span className="font-semibold text-lg text-foreground">VONIXX</span>
             </div>
           )}
           <Button
