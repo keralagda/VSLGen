@@ -7,7 +7,7 @@ const vonixxFields: LabelField[] = [
     id: 'brand-logo',
     type: 'text',
     value: 'VONIXX',
-    position: { x: 15, y: 15 },
+    position: { x: 15, y: 20 },
     size: { width: 120, height: 35 },
     style: {
       fontSize: 28,
@@ -23,7 +23,7 @@ const vonixxFields: LabelField[] = [
     id: 'label-title',
     type: 'text',
     value: 'Shipping Label',
-    position: { x: 220, y: 12 },
+    position: { x: 220, y: 18 },
     size: { width: 165, height: 20 },
     style: {
       fontSize: 14,
@@ -37,7 +37,7 @@ const vonixxFields: LabelField[] = [
     id: 'generated-date',
     type: 'text',
     value: 'Generated on 24/05/2024',
-    position: { x: 220, y: 32 },
+    position: { x: 220, y: 38 },
     size: { width: 165, height: 20 },
     style: {
       fontSize: 10,
@@ -50,7 +50,7 @@ const vonixxFields: LabelField[] = [
   {
     id: 'sep-1',
     type: 'line',
-    position: { x: 10, y: 60 },
+    position: { x: 10, y: 65 },
     size: { width: 380, height: 0 },
     style: { borderWidth: 1, borderColor: '#C7C7C7', borderStyle: 'dashed' },
   },
