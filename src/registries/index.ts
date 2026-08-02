@@ -1,0 +1,21 @@
+export * from './types';
+export * from './manifest';
+export * from './fieldRegistry';
+export * from './sectionRegistry';
+export * from './componentRegistry';
+export * from './coreShipping';
+export * from './documents';
+export * from './packaging';
+export * from './print';
+export * from './logistics';
+export * from './geography';
+export * from './payments';
+export * from './customer';
+export * from './workflow';
+export * from './ui';
+export * from './ai';
+export * from './metadata';
+
+export { THEMES, LANGUAGES, DATE_FORMATS, NUMBER_FORMATS } from '@/constants';
+export type { LabelTemplate } from '@/types';
+export { defaultTemplates } from './defaultTemplates';
