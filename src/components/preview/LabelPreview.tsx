@@ -191,8 +191,8 @@ export function LabelPreview({
               transform: field.style.rotation ? `rotate(${field.style.rotation}deg)` : undefined,
               transformOrigin: 'center center',
               whiteSpace: 'nowrap',
-              overflow: 'hidden',
-              textOverflow: 'ellipsis',
+              overflow: field.type === 'text' ? 'visible' : 'hidden',
+              textOverflow: field.type === 'text' ? 'clip' : 'ellipsis',
             };
 
             switch (field.type) {
